@@ -9,16 +9,19 @@ body{
     background-size: cover;
     display:flex;
     height: 700px;
+    align-items: center;
 }
 
-.banner img{
-    padding-left: 284px;
-    padding-top: 292px;
-}
 .banner h1{
     color: white;
-    padding-left: 500px;
-    padding-top: 0px;
-    font-size: x-large;
     font-family: "Lexend Deca", sans-serif;
+    text-align: center;
+}
+.banner div{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 332px;
+    padding-top: 292px;
 }
